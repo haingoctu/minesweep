@@ -55,7 +55,6 @@ int main(void){
 
     //determine how many non Bomb spaces needs to be revealed before win based on difference
     toWin -= difficultySetting;
-    //printf("toWin: %d \n", toWin);
     resetBoard(board, userBoard, checked, difficultySetting);
 
     do{
